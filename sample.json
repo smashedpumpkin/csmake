@@ -1,0 +1,18 @@
+{
+  "csmake": {
+    "type": "console",
+    "framework": "netcoreapp3.1",
+    "sources": [
+      "program.cs"
+    ],
+    "packages": [
+      {
+        "repository": "nuget",
+        "name": "Newtonsoft.Json",
+        "version": "12.0.3"
+      },
+      "nuget;newtonsoft.json;12.0.3",
+    ],
+    "outdir":  "out/myout/"
+  }
+}
